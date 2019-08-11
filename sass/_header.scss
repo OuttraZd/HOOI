@@ -11,10 +11,11 @@
         font-weight: 700;
         color:$main;
     }
-        &__list {
+    &__nav {
+        margin-right:30px;
+        .header__list {
             display:flex;
-            margin-right: 30px;
-             li {
+            li {
                 margin:0 15px;
                 font-size: 15px;
                 padding:6px 15px; 
@@ -23,9 +24,10 @@
                 font-family: 'Segoe UI';
                 font-size: 17px;
                 color:$main;
+                cursor: pointer;
                 &:first-child {
                     color:$red;
-                    text-align: center;
+                    text-align:center;
                     position:relative;
                     &::before {
                         content:'';
@@ -44,4 +46,15 @@
                 }
             }
         }
+    }
+    &__toggle {
+        display:none;
+        z-index:999;
+        cursor: pointer;
+        .fa-bars {
+            color:$main;
+            font-size:24px;
+            margin-right:20px;
+        }
+    }
 }

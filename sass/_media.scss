@@ -1,0 +1,43 @@
+@media (max-width:768px) {
+    .header {
+        margin-top:15px;
+        &__nav {
+            position: absolute;
+            width:100%;
+            height:auto;
+            top:0;
+            display:none;
+            margin-top:50px;
+            background-color:$main;
+            animation-name:list;
+            animation-duration:.4s;
+            .header__list {
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                li {
+                    margin:0;
+                    padding:0;
+                    font-size:18px;
+                    color:$bl;
+                    line-height: 2;
+                    &:first-child {
+                        text-align:left;
+                        position:static;
+                        &::before {
+                            background:none;
+                            position: static;
+                        }
+                    }
+                }
+            }
+        }
+        &__toggle {
+            display:block;
+        }
+    }
+    .list-active {
+        display:flex;
+        flex-direction: column;
+    }
+}
