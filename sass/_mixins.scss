@@ -10,7 +10,30 @@
     align-items: center;
 }
 
+@mixin flex-end {
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+@mixin center-start {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin center-end {
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 @mixin bgimage {
     background-image: url("../img/main.png");
     background-repeat: no-repeat;
+}
+
+@mixin size {
+    width:100%;
+    height:auto;
 }
