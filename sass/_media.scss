@@ -55,12 +55,18 @@
             }
         }
         &__phone {
+           display: -webkit-box;
+           display: -ms-flexbox;
            display: flex;
            position: absolute;
-           width: 100%;
+           -webkit-box-pack: center;
+           -ms-flex-pack: center;
            justify-content: center;
-           align-items: flex-end;
-           height:400px;
+           -webkit-box-align: end;
+           -ms-flex-align: end;
+           margin-top:0px;
+           top:320px;
+           width:100%;
         }
     }
 }
