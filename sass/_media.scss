@@ -49,6 +49,7 @@
             text-align: center;
             margin-top:15px;
             position: relative;
+            width:100%;
             p {
               position: relative;
               bottom:20px;
@@ -71,10 +72,3 @@
     }
 }
 
-@media (max-width:450px) {
-    .main {
-        &__phone {
-            top:350px;
-        }
-    }
-}
