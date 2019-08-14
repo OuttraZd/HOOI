@@ -138,12 +138,12 @@ body {
   font-family: 'Segoe UI';
   font-weight: 700;
   word-spacing: 10px;
-  font-size: 33px;
+  font-size: 37px;
 }
 
 .main__container p {
   word-spacing: 5px;
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .main__phone {
@@ -155,7 +155,7 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-top: 450px;
-  margin-right: 120px;
+  margin-right: 100px;
   /* Tutaj można przesunąć "main__phone.png" bardziej do środka */
 }
 
@@ -235,9 +235,13 @@ body {
     position: relative;
     width: 100%;
   }
+  .main__container h1 {
+    font-size: 27px;
+  }
   .main__container p {
     position: relative;
     bottom: 20px;
+    font-size: 19px;
   }
   .main__phone {
     display: -webkit-box;
@@ -252,6 +256,21 @@ body {
     margin-top: 0px;
     top: 340px;
     width: 100%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .main__container {
+    margin-left: 170px;
+  }
+  .main__container h1 {
+    font-size: 55px;
+  }
+  .main__container p {
+    font-size: 24px;
+  }
+  .main__phone {
+    margin-right: 380px;
   }
 }
 /*# sourceMappingURL=style.css.map */

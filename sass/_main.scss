@@ -13,11 +13,11 @@
             font-family: 'Segoe UI';
             font-weight: 700;
             word-spacing: 10px;
-            font-size:33px;
+            font-size:37px;
         }
         p {
             word-spacing: 5px;
-            font-size:19px;
+            font-size:20px;
         }
     }
     &__phone {    
@@ -25,6 +25,6 @@
         display:flex;
         justify-content:flex-end;
         margin-top:450px;
-        margin-right: 120px; /* Tutaj można przesunąć "main__phone.png" bardziej do środka */
+        margin-right: 100px; /* Tutaj można przesunąć "main__phone.png" bardziej do środka */
     }
 }

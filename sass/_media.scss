@@ -50,9 +50,13 @@
             margin-top:15px;
             position: relative;
             width:100%;
+            h1 {
+                font-size:27px;
+            }
             p {
               position: relative;
               bottom:20px;
+              font-size:19px;
             }
         }
         &__phone {
@@ -68,6 +72,23 @@
            margin-top:0px;
            top:340px;
            width:100%;
+        }
+    }
+}
+
+@media (min-width:1400px) {
+    .main {
+        &__container {
+            margin-left:170px;
+            h1 {
+                font-size:55px;
+            }
+            p {
+                font-size:24px;
+            }
+        }
+        &__phone {
+            margin-right:380px;
         }
     }
 }
