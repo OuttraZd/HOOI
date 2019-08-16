@@ -9,7 +9,7 @@
             display:none;
             margin-top:50px;
             background-color:$main;
-            animation-name:list;
+            animation-name: menu;
             animation-duration:.4s;
             .header__list {
                 display: flex;
@@ -92,4 +92,3 @@
         }
     }
 }
-
