@@ -13,24 +13,6 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-/* MENU */
-@-webkit-keyframes list {
-  0% {
-    margin-top: -500px;
-  }
-  50% {
-    margin-top: -50px;
-  }
-}
-@keyframes list {
-  0% {
-    margin-top: -500px;
-  }
-  50% {
-    margin-top: -50px;
-  }
-}
-
 .header {
   width: 100%;
   height: auto;
@@ -271,6 +253,20 @@ body {
   }
   .intro__phone {
     margin-right: 380px;
+  }
+}
+
+/* MENU */
+@-webkit-keyframes list {
+  0% {
+    -webkit-transform: translateX(-500px);
+            transform: translateX(-500px);
+  }
+}
+@keyframes list {
+  0% {
+    -webkit-transform: translateX(-500px);
+            transform: translateX(-500px);
   }
 }
 /*# sourceMappingURL=style.css.map */
