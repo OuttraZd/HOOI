@@ -25,18 +25,26 @@
             </div>
         </header>
 
-        <section class="main">
-            <div class="main__container">
+        <section class="intro">
+            <div class="intro__container">
                 <h1>Utrzymuj kontakt <br> z HOOI</h1>
                 <p>najszybsza, przejrzysta, najlepsza</p>
             </div>
-            <div class="main__phone">
-                <img src="img/main__phone.png">
+            <div class="intro__phone">
+                <img src="img/intro__phone.png">
             </div>
         </section>
 
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-       	<script type="text/javascript" src="scripts/menu.js"></script>
-       	
+        <script type="text/javascript">
+
+            $(document).ready(function (){
+            $('.menu').click(function (){
+            $('.header__nav').toggleClass('list-active');
+            })
+            
+           	})
+
+        </script>
     </body>
 </html>

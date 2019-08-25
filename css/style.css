@@ -16,13 +16,18 @@ body {
 /* MENU */
 @-webkit-keyframes list {
   0% {
-   transform:translate(-500px, 0)
+    margin-top: -500px;
+  }
+  50% {
+    margin-top: -50px;
   }
 }
-
 @keyframes list {
   0% {
-   transform:translate(-500px, 0)
+    margin-top: -500px;
+  }
+  50% {
+    margin-top: -50px;
   }
 }
 
@@ -105,8 +110,8 @@ body {
   margin-right: 20px;
 }
 
-.main {
-  background-image: url("../img/main.png");
+.intro {
+  background-image: url("../img/intro.png");
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -121,7 +126,7 @@ body {
   height: 500px;
 }
 
-.main__container {
+.intro__container {
   width: 60%;
   height: auto;
   color: #fff;
@@ -129,19 +134,19 @@ body {
   margin-top: 80px;
 }
 
-.main__container h1 {
+.intro__container h1 {
   font-family: 'Segoe UI';
   font-weight: 700;
   word-spacing: 10px;
   font-size: 37px;
 }
 
-.main__container p {
+.intro__container p {
   word-spacing: 5px;
   font-size: 20px;
 }
 
-.main__phone {
+.intro__phone {
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -210,7 +215,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .main__container {
+  .intro__container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -230,15 +235,15 @@ body {
     position: relative;
     width: 100%;
   }
-  .main__container h1 {
+  .intro__container h1 {
     font-size: 27px;
   }
-  .main__container p {
+  .intro__container p {
     position: relative;
     bottom: 20px;
     font-size: 19px;
   }
-  .main__phone {
+  .intro__phone {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -255,16 +260,16 @@ body {
 }
 
 @media (min-width: 1400px) {
-  .main__container {
+  .intro__container {
     margin-left: 170px;
   }
-  .main__container h1 {
+  .intro__container h1 {
     font-size: 55px;
   }
-  .main__container p {
+  .intro__container p {
     font-size: 24px;
   }
-  .main__phone {
+  .intro__phone {
     margin-right: 380px;
   }
 }

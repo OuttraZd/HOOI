@@ -1,6 +1,9 @@
 /* MENU */
 @keyframes list {
-  0% {
-   transform:translate(-500px, 0)
-  }
+    0% {
+        margin-top:-500px;
+    }
+    50% {
+        margin-top:-50px;
+    }
 }
