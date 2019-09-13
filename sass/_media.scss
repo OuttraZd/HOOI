@@ -43,7 +43,9 @@
 
     .intro {
         &__container {
-            @include flex;
+            display:flex;
+            justify-content: center;
+            align-items: center;
             flex-direction: column;
             margin: 0 auto;
             text-align: center;
@@ -74,6 +76,25 @@
            width:100%;
         }
     }
+
+    .why {
+        margin-top: 70px;
+        &__container {
+            .why__elements-container {
+                position: relative;
+                right:80px;
+                h2 {
+                    font-size:27px;
+                }
+                p {
+                    font-size:19px;
+                }     
+            }
+            .why__phone {
+                margin-left:-40px;
+            }
+        }
+    }
 }
 
 @media (min-width:1400px) {
@@ -92,4 +113,3 @@
         }
     }
 }
-
