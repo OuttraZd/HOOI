@@ -43,7 +43,9 @@
 
     .intro {
         &__container {
-            @include flex;
+            display:flex;
+            justify-content: center;
+            align-items: center;
             flex-direction: column;
             margin: 0 auto;
             text-align: center;
@@ -77,18 +79,56 @@
 }
 
 @media (min-width:1400px) {
+    .header {
+        width:100%;
+        height:auto;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        position:fixed;
+        z-index: 100;
+        &__logo {
+            text-transform: uppercase;
+            margin-left: 30px;
+            font-size: 38px;
+            font-family: 'Segoe UI';
+            font-weight: 700;
+            color:$main;
+        }
+        &__nav {
+            margin-right:30px;
+            margin-top: 20px;
+            .header__list {
+                display:flex;
+                li {
+                    margin:0 27px;
+                    font-size: 15px;
+                    padding:8px 15px; 
+                    text-decoration: none;
+                    list-style-type: none;
+                    font-family: 'Segoe UI';
+                    font-size: 17px;
+                    color:$main;
+                    cursor: pointer;
+                    transform: scale(1.5)
+                }
+            }
+        }
+    }
+
     .intro {
         &__container {
-            margin-left:170px;
+            margin-left:320px;
             h1 {
-                font-size:55px;
+                font-size:58px;
             }
             p {
-                font-size:24px;
+                font-size:28px;
             }
         }
         &__phone {
-            margin-right:380px;
+            margin-right:300px;
+            transform: scale(1.3);
         }
     }
 }

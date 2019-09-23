@@ -1,8 +1,11 @@
 .header {
     width:100%;
     height:auto;
-    @include flex-space;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
     position:fixed;
+    z-index: 100;
     &__logo {
         text-transform: uppercase;
         margin-left: 30px;

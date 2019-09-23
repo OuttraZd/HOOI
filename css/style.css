@@ -26,6 +26,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: fixed;
+  z-index: 100;
 }
 
 .header__logo {
@@ -242,17 +243,64 @@ body {
 }
 
 @media (min-width: 1400px) {
+  .header {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    z-index: 100;
+  }
+  .header__logo {
+    text-transform: uppercase;
+    margin-left: 30px;
+    font-size: 38px;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    color: #fff;
+  }
+  .header__nav {
+    margin-right: 30px;
+    margin-top: 20px;
+  }
+  .header__nav .header__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header__nav .header__list li {
+    margin: 0 27px;
+    font-size: 15px;
+    padding: 8px 15px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Segoe UI';
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
   .intro__container {
-    margin-left: 170px;
+    margin-left: 320px;
   }
   .intro__container h1 {
-    font-size: 55px;
+    font-size: 58px;
   }
   .intro__container p {
-    font-size: 24px;
+    font-size: 28px;
   }
   .intro__phone {
-    margin-right: 380px;
+    margin-right: 300px;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
   }
 }
 
