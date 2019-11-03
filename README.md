@@ -1,3 +1,17 @@
-HOOI, web for fictional app.
-Technology used: HTML, CSS, SASS, JS and methodology BEM.
-Time: Since August to now. 
+
+
+## HOOI (Web for fictional app)
+
+### Technology used
+
+* HTML
+* CSS
+* JS
+* SASS
+* BEM
+
+## Time
+
+```
+October - Since August to ~September (Suspended)
+```
