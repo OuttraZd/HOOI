@@ -10,8 +10,8 @@
 * SASS
 * BEM
 
-## Time
+### Time
 
 ```
-October - Since August to ~September (Suspended)
+Since August to ~September (2019, Suspended)
 ```
